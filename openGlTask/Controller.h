@@ -1,7 +1,8 @@
 #if !defined(__ObjViewer_Controller_h)
 #define __ObjViewer_Controller_h
 
-#include "SceneCreator.h"
+#include "InputWrapper.h"
+#include "Transformator.h"
 
 
 
@@ -10,18 +11,19 @@ class Controller
 public:
    Controller (int argc, char* argv[]);
    ~Controller();
-   void onSpecial(void);
+   /*void onSpecial(void);
    void onSpecialUp(void);
-   static void onDisplay(void);
+   void onDisplay(void);
    void onMouse(void);
    void onMotion(void);
-   void onReshape(void);
+   void onReshape(void);*/
    bool InitWindow(int argc, char* argv[]);
    //void onDisplay();
 
 protected:
 private:
-	GlutFrame *mScene;
+	Transformator *mTransformator;
+	GlutWindow *mInputWrapper;
    /*Camera mCamera;
    Light mLight;
    Shader mShader;

@@ -1,36 +1,34 @@
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\OPENGLTASK\DEBUG\CONTROLLER.OBJ
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\OPENGLTASK\DEBUG\MAIN.OBJ
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\OPENGLTASK\DEBUG\VC110.PDB
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\OPENGLTASK\DEBUG\SCENECREATOR.OBJ
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\OPENGLTASK\DEBUG\GLUTFRAME.OBJ
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\DEBUG\OPENGLTASK.ILK
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\DEBUG\OPENGLTASK.EXE
-D:\STUDY\VISUAL STUDIO\OPENGLTASK\DEBUG\OPENGLTASK.PDB
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\Controller.obj
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\GlutFrame.obj
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\Main.obj
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\SceneCreator.obj
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\cl.command.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\CL.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\CL.read.2.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\CL.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link-cvtres.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link-cvtres.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link-rc.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link-rc.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688-cvtres.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688-cvtres.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688-rc.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688-rc.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688.read.2.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.10688.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.command.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.read.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.read.2.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\link.write.1.tlog
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\vc110.idb
-D:\study\Visual Studio\openGlTask\openGlTask\Debug\vc110.pdb
-D:\study\Visual Studio\openGlTask\Debug\openGlTask.pdb
-D:\study\Visual Studio\openGlTask\Debug\openGlTask.exe
-D:\study\Visual Studio\openGlTask\Debug\openGlTask.ilk
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\CAMERA.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\MAIN.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\MESH.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\INPUTWRAPPER.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\READFILEHELPER.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\RENDERER.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\SHADER.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\TRANSFORMATOR.OBJ
+E:\POPOVICH\TTASK\OPENGLTASK\DEBUG\VC110.PDB
+E:\POPOVICH\TTASK\DEBUG\OPENGLTASK.ILK
+E:\POPOVICH\TTASK\DEBUG\OPENGLTASK.EXE
+E:\POPOVICH\TTASK\DEBUG\OPENGLTASK.PDB
+E:\popovich\ttask\openGlTask\Debug\Camera.obj
+E:\popovich\ttask\openGlTask\Debug\InputWrapper.obj
+E:\popovich\ttask\openGlTask\Debug\Mesh.obj
+E:\popovich\ttask\openGlTask\Debug\ReadFileHelper.obj
+E:\popovich\ttask\openGlTask\Debug\Renderer.obj
+E:\popovich\ttask\openGlTask\Debug\Shader.obj
+E:\popovich\ttask\openGlTask\Debug\Transformator.obj
+E:\popovich\ttask\openGlTask\Debug\cl.command.1.tlog
+E:\popovich\ttask\openGlTask\Debug\CL.read.1.tlog
+E:\popovich\ttask\openGlTask\Debug\CL.write.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link-cvtres.read.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link-cvtres.write.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link-rc.read.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link-rc.write.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link.command.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link.read.1.tlog
+E:\popovich\ttask\openGlTask\Debug\link.write.1.tlog
+E:\popovich\ttask\openGlTask\Debug\vc110.idb
+E:\popovich\ttask\openGlTask\Debug\vc110.pdb
+E:\popovich\ttask\Debug\openGlTask.pdb
+E:\popovich\ttask\Debug\openGlTask.exe
+E:\popovich\ttask\Debug\openGlTask.ilk
