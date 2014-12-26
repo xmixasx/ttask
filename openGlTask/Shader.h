@@ -1,14 +1,5 @@
 #include "OpenglIncludes.h"
 
-//extern GLuint program;
-//extern GLint attribute_v_coord;
-//extern GLint attribute_v_normal;
-//extern GLint uniform_m;
-//extern GLint uniform_v;
-//extern GLint uniform_p;
-//extern GLint uniform_m_3x3_inv_transp;
-//extern GLint uniform_v_inv ;
-
 class Shader {
 public:
 	int loadShader();

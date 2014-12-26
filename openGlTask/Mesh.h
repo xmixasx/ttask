@@ -5,7 +5,7 @@
 #include <vector>
 
 #include "OpenglIncludes.h"
-#include "Camera.h"
+
 #include "Shader.h"
 
 using namespace std;
@@ -27,6 +27,7 @@ public:
   vector<GLushort> elements;
   glm::mat4 object2world;
   GLuint vbo_vertices, vbo_normals, ibo_elements;
+  void setObjToWorls(int x, int y, int z);
  
   Mesh() ;
   ~Mesh();

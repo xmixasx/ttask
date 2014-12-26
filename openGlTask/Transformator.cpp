@@ -1,5 +1,6 @@
 #include "Transformator.h"
 #include "OpenglIncludes.h"
+#include "Scene.h"
 
 Transformator::Transformator()
 {
@@ -19,47 +20,7 @@ Transformator::~Transformator()
 {
 }
 
-void Transformator::setRotY_direct(int rotY_direct){
-	transParams.rotY_direction = rotY_direct;
-}
-void Transformator::setRotX_direct(int rotX_direct){
-	transParams.rotX_direction = rotX_direct;
-}
-void Transformator::setLast_mx(int last_x){
-	transParams.last_mx = last_x;
-}
-void Transformator::setlast_my(int last_y){
-	transParams.last_my = last_y;
-}
-void Transformator::setCur_mx(int cur_x){
-	transParams.cur_mx = cur_x;
-}
-void Transformator::setCur_my(int cur_y){
-	transParams.cur_my = cur_y;
-}
-void Transformator::setArcball(bool acrBall){
-	transParams.arcball_on = acrBall;
-}
-void Transformator::setTransZDicrect(int transZ_direct){
-	transParams.transZ_direction = transZ_direct;
-}
-void Transformator::setstrife(int str){
-	transParams.strife = str;
-}
-void Transformator::setSpeed_factor(float speed){
-	transParams.speed_factor = speed;
-}
-void Transformator::setLast_ticks(int last_tick){
-	transParams.last_ticks = last_tick;
-}
-void Transformator::setScreenSize(int width, int height){
-	transParams.screen_width = width;
-	transParams.screen_height = height;
-}
 
-bool Transformator::getArc(){
-	return transParams.arcball_on;
-}
 void Transformator::calcWorldToObj(Mesh *mMesh)
 {
 	int delta_t = glutGet(GLUT_ELAPSED_TIME) - transParams.last_ticks;
@@ -154,10 +115,13 @@ void Transformator::setParams (keyboard_params params){
 	transParams = params;
 }
 
-void Transformator::MeshTransformation(Mesh *mesh , Camera *mCamera, Shader *mshader)
+void Transformator::MeshTransformation(Scene *mScene , Camera *mCamera, Shader *mshader)
 {
-	calcWorldToObj(mesh);
-	handleArcballTransform(mesh, mCamera);
+	for (int i = 0; i< mScene->getSceneObj().size(); i++)
+	{
+		calcWorldToObj(mScene->getMesh(i));	
+		handleArcballTransform(mScene->getMesh(i), mCamera);
+	}
 	changeCamera(mCamera,  mshader);
 
 }

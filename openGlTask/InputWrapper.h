@@ -1,7 +1,6 @@
 #include "GlutWindow.h"
 #include "openGlObj.h"
 #include <vector>
-#include "Transformator.h"
 
 
 

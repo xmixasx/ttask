@@ -1,4 +1,5 @@
 #include "Renderer.h"
+#include "Scene.h"
 
 
 Renderer::Renderer()
@@ -21,7 +22,7 @@ void Renderer::intialize()
 	}
 	else return;
 }
-void Renderer::draw (Mesh *mMesh)
+void Renderer::draw (Mesh* mMesh)
 {
 	glClearColor(0.45, 0.45, 0.45, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
@@ -77,4 +78,10 @@ void Renderer::draw (Mesh *mMesh)
 Shader* Renderer::getShaderprogram()
 {
 	return mShader;
+}
+
+void Renderer::drawScene(Scene *mScene)
+{
+	for (int i = 0; i< mScene->getSceneObj().size(); i++)
+		this->draw(mScene->getMesh(i));
 }

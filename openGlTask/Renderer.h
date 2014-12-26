@@ -1,5 +1,7 @@
 #include "ReadFileHelper.h"
 #include "OpenglIncludes.h"
+class Scene;
+
 class Renderer
 {
 public:
@@ -7,7 +9,7 @@ public:
 	~Renderer();
 	void intialize();
 	void draw (Mesh *mMesh);
-	void setCamera(Camera *mCamera);
+	void drawScene(Scene *mScene);
 	Shader* getShaderprogram();
 	
 

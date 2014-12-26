@@ -77,22 +77,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="InputWrapper.cpp" />
     <ClCompile Include="ReadFileHelper.cpp" />
     <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Transformator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Controller.h" />
     <ClInclude Include="GlutWindow.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="OpenglIncludes.h" />
     <ClInclude Include="InputWrapper.h" />
     <ClInclude Include="ReadFileHelper.h" />
     <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Transformator.h" />
   </ItemGroup>
